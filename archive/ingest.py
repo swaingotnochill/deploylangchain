@@ -6,6 +6,7 @@ import weaviate
 from bs4 import BeautifulSoup
 from langchain.text_splitter import CharacterTextSplitter
 
+os.environ["OPENAI_API_KEY"] = "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"
 
 def clean_data(data):
     soup = BeautifulSoup(data)
