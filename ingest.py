@@ -6,7 +6,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores.faiss import FAISS
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 def ingest_docs():
     """Get documents from web pages."""
